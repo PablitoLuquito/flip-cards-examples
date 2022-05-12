@@ -21,7 +21,7 @@ body {
 }
 
 .card {
-  margin: 100px auto 0;
+  margin: 100px auto;
   width: 205px;
   height: 300px;
   perspective: 1000px;
@@ -143,5 +143,6 @@ body {
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
+    padding-bottom: 50px;
   }
 }
